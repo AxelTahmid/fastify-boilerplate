@@ -3,7 +3,7 @@ import fp from "fastify-plugin"
 
 import { readFileSync } from "node:fs"
 import { dirname, join } from "node:path"
-import { fileURLToPath } from "url"
+import { fileURLToPath } from "node:url"
 
 import { admin, authenticated, manager, restricted, verified } from "../utility/jwt.js"
 

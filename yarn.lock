@@ -2575,6 +2575,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastify-tsconfig@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "fastify-tsconfig@npm:2.0.0"
+  checksum: 10c0/69e7105732c3d6b951a546d34d9efe36beb4569c8324eb439e522ec90a38d3119e6931ee0ad06aae72a390990c68c142c11b8458a72ce74eb5bda155964cf47f
+  languageName: node
+  linkType: hard
+
 "fastify@npm:^4.27.0":
   version: 4.27.0
   resolution: "fastify@npm:4.27.0"
@@ -2621,6 +2628,7 @@ __metadata:
     dotenv: "npm:^16.4.5"
     fastify: "npm:^4.27.0"
     fastify-plugin: "npm:^4.5.1"
+    fastify-tsconfig: "npm:^2.0.0"
     fluent-json-schema: "npm:^4.2.1"
     husky: "npm:^9.0.11"
     ioredis: "npm:^5.4.1"
