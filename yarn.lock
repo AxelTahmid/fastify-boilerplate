@@ -1766,6 +1766,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/dotenv@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "@types/dotenv@npm:8.2.0"
+  dependencies:
+    dotenv: "npm:*"
+  checksum: 10c0/cd010440ea750acf2359fb9ed0a1681b00ce29d9c40b602fe33e51642bd44ce30ced54b23fadc05385daa415fe9f671273911bcf95381a5aaf09690b3db96938
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^20.12.12":
   version: 20.12.12
   resolution: "@types/node@npm:20.12.12"
@@ -2239,7 +2248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.4.5":
+"dotenv@npm:*, dotenv@npm:^16.4.5":
   version: 16.4.5
   resolution: "dotenv@npm:16.4.5"
   checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
@@ -2604,6 +2613,7 @@ __metadata:
     "@fastify/rate-limit": "npm:^9.1.0"
     "@fastify/sensible": "npm:^5.6.0"
     "@fastify/under-pressure": "npm:^8.3.0"
+    "@types/dotenv": "npm:^8.2.0"
     "@types/node": "npm:^20.12.12"
     bcryptjs: "npm:^2.4.3"
     bullmq: "npm:^5.7.10"
